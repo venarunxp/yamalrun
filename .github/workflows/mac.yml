@@ -1,0 +1,15 @@
+name: hello-world
+
+on: push
+
+jobs:
+
+  my-job:
+
+    runs-on: macos
+
+    steps:
+
+      - name: my-step
+
+        run: echo "Hello World!"
